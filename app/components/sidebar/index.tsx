@@ -4,10 +4,6 @@ import { navSections } from "@/lib/utils";
 import { Disc3, KeyboardMusicIcon, ListMusic, Music4, Play } from "lucide-react";
 
 const SideBar = () => {
-  interface checkType {
-    one: number;
-    two: number;
-  }
   const [check, setCheck] = useState<{ one: number; two: number }>({
     one: 0,
     two: 0,
